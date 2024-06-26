@@ -1,2 +1,2 @@
-# JavaScript-
+# JavaScript
 A Basic JS Repo 
