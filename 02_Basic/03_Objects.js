@@ -28,7 +28,7 @@ console.log(JSUser.name);  // Common way to declare but if "Full Name " : "Ishwa
 
 JSUser.email = "ishwar@google.com";
 // Object.freeze(JSUser); // it lock object and after this command no changes happen in object 
-
+// delete JSUser.email; // USed to delete element in Obj 
 // JSUser.email = "ishwar@blank.com";
 console.log(JSUser);
 
@@ -40,8 +40,11 @@ Your last login days are ${this.lastLoginDays.join(", ")},
 Your Access Key is "${this[userKey]}" make sure to not share with anyone!
 I hope you have a nice day!`);
 }
+
+
 console.log(JSUser.greeting); // [Function (anonymous)] 
 console.log(JSUser.greeting()); 
 
 
 
+                                                                                        
