@@ -31,7 +31,7 @@ let val1;
 // val1 = undefined ?? 15
 val1 = null ?? 10 ?? 20
 
-
+console.log(d);
 
 console.log(val1);
 
@@ -41,3 +41,10 @@ console.log(val1);
 
 const iceTeaPrice = 100
 iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
+
+
+
+// for (let i = 0; i < array.length; i++) {
+//     const element = array[i];
+
+// }
