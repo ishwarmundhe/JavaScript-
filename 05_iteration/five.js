@@ -39,6 +39,13 @@ const code = [{
 }
 ]
 
+// code.forEach(([item , value]) => {
+//     console.log(item , value); //TypeError: object is not iterable 
+// })
+
+
 code.forEach((item) => {
-    console.log(item.langName);
+    console.log(item); 
 })
+
+// in all cases for for in , for of, and of Each iteration happen
