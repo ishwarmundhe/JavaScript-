@@ -60,42 +60,44 @@
 
     <!-- -------------------------------------------------------JS PART-------------------------------------------------------------------- -->
 
-    <script>
+   
+</body>
+<script>
 
-       // const story = document.body.querySelector(".story");
-       // const setText = document.body.querySelector("#set-text");
-        //setText.addEventListener("click", () => {
-          //  story.textContent = "Hey , Listern new story";
-        //});
+  // const story = document.body.querySelector(".story");
+  // const setText = document.body.querySelector("#set-text");
+   //setText.addEventListener("click", () => {
+     //  story.textContent = "Hey , Listern new story";
+   //});
 
-       // //const clearText = document.body.querySelector("#clear-text");
-       // clearText.addEventListener("click", () => {
-       //     story.textContent = " ";
-       // });
+  // //const clearText = document.body.querySelector("#clear-text");
+  // clearText.addEventListener("click", () => {
+  //     story.textContent = " ";
+  // });
 
 
-        const parent = document.body.querySelector(".parent");
+   const parent = document.body.querySelector(".parent");
 
 const addChild = document.body.querySelector("#add-child");
 addChild.addEventListener("click", () => {
-  // Only add a child if we don't already have one
-  // in addition to the text node "parent"
-  if (parent.childNodes.length > 1) {
-    return;
-  }
-  const child = document.createElement("div");
-  child.classList.add("child");
-  child.textContent = "child";
-  parent.appendChild(child);
+// Only add a child if we don't already have one
+// in addition to the text node "parent"
+if (parent.childNodes.length > 1) {
+return;
+}
+const child = document.createElement("div");
+child.classList.add("child");
+child.textContent = "child";
+parent.appendChild(child);
 });
 
 const removeChild = document.body.querySelector("#remove-child");
 removeChild.addEventListener("click", () => {
-  const child = document.body.querySelector(".child");
-  parent.removeChild(child);
+const child = document.body.querySelector(".child");
+parent.removeChild(child);
 });
 
-    </script>
-</body>
+</script>
+
 
 </html>
