@@ -1,0 +1,62 @@
+<html lang="en">
+
+<head>
+    <title>My Document</title>
+</head>
+
+<body style=" background-color: #212121; 
+  color: #fff;">
+    <input type="button" value="Change this document." onclick="change()" />
+    <h2>Header</h2>
+    <p>Paragraph</p>
+
+
+
+
+
+    <!-- -------------------------------------JS PART ---------------------------------------- -->
+    
+    <script>
+    //    function change() {
+    //        const header = document.getElementsByTagName("h2").item(0);
+    //        header.firstChild.data = " This is Heading";
+//
+    //        const para = document.getElementsByTagName("p").item(0);
+    //        para.firstChild.data = "This is 1st Para";
+//
+    //        const newText = document.createTextNode("This is 2nd Para");
+    //        const newElement = document.createElement("p");
+    //        newElement.appendChild(newText);
+//
+    //        para.parentNode.appendChild(newElement);
+//
+    //    }
+
+    // create a Tree in javascript
+const root = document.createElement("HTML");
+root.lang = "en";
+const Head = document.createElement("head");
+const title = document.createElement("title");
+title.appendChild(document.createTextNode("Document Header"));
+head.appendChild(title);
+
+const body = document.createElement("body");
+const Header = document.createElement("h1");
+header.appendChild(document.createTextNode("Header - H1"));
+
+const Para = document.createElement("p");
+para.appendChild(document.createTextNode("Para - p"));
+
+body.appendChild(Header);
+body.appendChild(Para);
+
+root.appendChild(body);
+root.appendChild(Head);
+
+
+
+
+    </script>
+</body>
+
+</html>
