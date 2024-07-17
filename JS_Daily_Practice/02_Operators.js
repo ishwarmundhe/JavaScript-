@@ -133,4 +133,6 @@ let result1 = number1 >= 0 ? "The number is positive." : "The number is negative
 
 // Log the result to the console
 console.log(result1); // The number is negative.
+console.log(result1); // The number is negative.
+console.log(result1); // The number is negative.
 
