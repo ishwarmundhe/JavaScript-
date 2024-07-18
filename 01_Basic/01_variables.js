@@ -6,4 +6,6 @@ let accountState;
 
 // var is not used is JS coz of issces with block scope and fn scope 
 
-console.table([accountId, accountName, accountCity, accountCollege ,accountState])
+console.table([accountId, accountName, accountCity, accountCollege, accountState])
+
+//changes happen S
