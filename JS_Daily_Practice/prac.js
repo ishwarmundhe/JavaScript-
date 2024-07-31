@@ -40,5 +40,5 @@
 // class and isntance methods
 // operator precedence
 
-let x = 22.7
-retu
+// let x = 22.7
+// retu
