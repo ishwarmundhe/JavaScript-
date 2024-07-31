@@ -32,3 +32,4 @@ console.log("D :", myArr);
 // So main difference between slice and splice is that in slice arry is copy and shown as in splice it cut from original array.
 
 
+

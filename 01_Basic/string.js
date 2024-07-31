@@ -12,7 +12,7 @@ const gameName = new String("Ishwar");
 console.log(gameName);
 console.log(gameName.italics);
 // Go through all the prototypes of strings 
-
+//
 
  console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));
