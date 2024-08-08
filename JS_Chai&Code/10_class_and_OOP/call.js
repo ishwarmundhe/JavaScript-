@@ -1,4 +1,6 @@
 function setUsername(username) {
+
+    //Complex DB call
     this.username = username
 }
 function createUsername(username, email, password) {
